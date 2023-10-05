@@ -1,0 +1,185 @@
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  grid-template-rows: 1fr 1fr;
+  height: 100vh;
+}
+.first-container {
+  position: relative;
+  background: url("https://zimiorganics.com/blog/images/3.jpg?fbclid=IwAR2aMZ3YW0Ur6Ee6Tup97_PT-sPAfdav--Dlw4uKmCQLnizG2_8kdH8MJZM");
+  background-size: cover;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+}
+.overlay {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+}
+header h1 {
+  color: paleturquoise;
+}
+header {
+  position: absolute;
+  top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: paleturquoise;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #3498db;
+}
+main {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  gap: 20px;
+  padding-top: 100px;
+  margin: auto;
+  justify-content: center;
+  align-items: flex-start;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card {
+  height: 300px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  line-height: 1.3;
+}
+.column h2 {
+  font-size: 48px;
+  margin: 0 0 10px;
+  line-height: 1.2;
+}
+h2 {
+  text-align: center;
+  padding: 2px;
+  text-decoration: underline;
+}
+.column p {
+  font-size: 20px;
+}
+.column1 {
+  padding: 10px 0;
+}
+.column1 p {
+  line-height: 1.5;
+}
+.ca-button {
+  color: white;
+  border: 1px solid paleturquoise;
+  background: transparent;
+  padding: 10px 20px;
+  transition: border-color 0.3s ease;
+}
+.ca-button:hover {
+  border-color: plum;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.card {
+  padding: 10px;
+  background: gainsboro;
+  border-radius: 10px;
+}
+.second-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 500px;
+  font-family: "Raleway", sans-serif;
+  background: pal;
+  background-size: cover;
+  padding: 20px;
+}
+.photo-collage {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+}
+.grid-item {
+  height: 100px;
+}
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  background-color: lightseagreen;
+  padding: 10px;
+  text-decoration: solid;
+}
+.footercontainer {
+  width: 100%;
+  padding: 20px 30px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+.footercontainer a {
+  padding: 15px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.footercontainer a i {
+  font-size: 1.5em;
+  color: black;
+  opacity: 0.9;
+}
+.footercontainer a:hover {
+  background-color: rgb(83, 194, 194);
+  transition: 0.5s;
+}
+.footercontainer a:hover i {
+  color: white;
+  transition: 0.5s;
+}
